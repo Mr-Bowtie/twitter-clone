@@ -23,6 +23,7 @@ gem 'bulma-rails', '~> 0.9.2'
 gem 'simple_form', '~> 5.1'
 gem 'gravatar_image_tag', '~> 1.2'
 gem 'devise', '~> 4.8'
+gem "font-awesome-rails"
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
