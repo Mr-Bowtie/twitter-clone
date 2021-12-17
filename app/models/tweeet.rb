@@ -8,4 +8,5 @@
 #  updated_at :datetime         not null
 #
 class Tweeet < ApplicationRecord
+  belongs_to :user
 end

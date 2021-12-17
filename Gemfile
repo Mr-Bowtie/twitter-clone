@@ -50,6 +50,7 @@ group :development do
   gem "better_errors"
   gem "guard"
   gem "guard-livereload", require: false
+  gem "rack-livereload"
 end
 
 group :test do
