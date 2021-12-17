@@ -15,7 +15,7 @@
 #
 # and, you'll have to watch "config/Guardfile" instead of "Guardfile"
 
-guard 'livereload' do
+guard 'livereload', host: '127.0.0.1', port: '3000' do
   extensions = {
     css: :css,
     scss: :css,
